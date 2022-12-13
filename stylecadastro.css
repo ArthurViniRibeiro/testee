@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.caixa{
+    font-size: xx-large;
+    border-radius: 10px;
+    padding: 80px;
+    border: 3px solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+input{
+    height: 20px;
+    border: none;
+}
+
+.fundo{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+select{
+    width: 150px;
+    height: 25px;
+}
+
+#sim,#nao{
+    width: 20px;
+    height: 20px;
+}
+
+.colorr{
+    width: 100px;
+    height: 25px;
+}

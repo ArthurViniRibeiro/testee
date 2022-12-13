@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>  
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/stylecadastro.css">
+        <title>cadastro do animal</title>
+    </head>
+    <body>
+
+
+        <img class="fundo" src="https://i0.wp.com/www.portaldodog.com.br/cachorros/wp-content/uploads/2021/05/quanto-custa-ter-um-cachorro-4.jpeg?resize=626%2C352&ssl=1">
+        <div>
+
+            <h1>cadastro do animal:</h1>
+
+            <div class='caixa'>
+
+                <label for="sexo">sexo: 
+                    <select name="sexo" id="sexo">
+                    <option value="macho">macho</option>
+                    <option value="femea">femea</option>
+                </select></label>
+                
+
+                <label for="porte"> porte
+                    <select name="porte" id="porte">
+                        <option value="pequeno">porte pequeno</option>
+                        <option value="medio">porte medio</option>
+                        <option value="grande">porte grande</option>
+                    </select>
+                </label>
+
+                <label for="idade"> idade estimada:
+                    <select name="idade" id="idade">
+                        <option value="filhote">filhote</option>
+                        <option value="adulto">adulto</option>
+                        <option value="velho">velho</option>
+                    </select>
+                </label>
+                <label for="cor1"> cor primaria: 
+                    <input class="colorr" type="color" name="cor1" id="cor1">
+                </label>
+                <label for="cor2"> cor secundaria: 
+                    <input class="colorr" type="color" name="cor2" id="cor2">
+                </label>
+
+                <label for="raca">raca:
+                    <input type="text" name="raca" id="raca">
+                </label>
+
+                <label for="coleira">esta de coleira:
+                    <input type="radio" name="coleira" id="sim"> sim</input>
+                    <input type="radio" name="coleira" id="nao"> nao</input>
+                </label>
+
+                <label for="descricao">
+                    se ha coleira diz algo nela?
+                    <input type="text" name="descricao">
+                </label>
+
+                <label for="situacao">
+                    como ele esta:
+                    <select name="siuacao" id="situacao">
+                        <option value="muito bem">muito bem</option>
+                        <option value="bem">bem</option>
+                        <option value="machucado">machucado</option>
+                        <option value="muitp machucado">muito machucado</option>
+                    </select>
+                </label>
+                <label for="localizacao">localizacao:
+                    <input type="text">
+                </label>
+            </div>
+
+        </div>
+    </body>
+</html>

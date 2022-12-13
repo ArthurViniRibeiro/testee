@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cabecario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgb(170, 170, 255);
+    width: 100%;
+}
+
+.quadrado{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+a{
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(45, 45, 255);
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.imagem{
+    width: 30%;
+
+}
+
+/* -------------------------------------- */
+
+.caes{
+    display: flex;
+    margin-top: 50px;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(227, 227, 227);
+    border: 3px solid;
+    border-color: rgb(218, 218, 218);
+    gap: 20px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(137, 137, 137);
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.informacoes{
+    display: flex;
+    width: 80%;
+}
+
+.sexo-idade{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.raca-cor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.porte-coleira{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.localizacao-situacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.imagenn{
+    height: 100%;
+}
+
+.imagen1n{
+    width: 100%;
+}
